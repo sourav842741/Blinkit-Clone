@@ -1,0 +1,142 @@
+@media only screen and (min-width:200px) and (max-width:576px)  {
+    header{
+        flex-direction: column;
+        
+    }
+    .logo{
+        padding: 10px;
+    }
+    .headerAddres{
+        padding: 10px;
+    }
+    .headerAddres h3{
+        font-size: 15px;
+    }
+
+    .headerright{
+          position: fixed;
+          bottom: 0;
+          justify-content: center;
+          width: 100%;
+    }
+
+    .imgSection{
+        margin-top: 10px;
+    }
+
+    .image{
+        display: none;
+    }
+
+    /* -------------------------------------------------------------------- */
+    .order{
+        flex-direction: column;
+        margin: 6px;
+    }
+
+    .orderItem{
+      flex-basis: 32%;
+    
+    }
+    .productitems{
+       flex-basis: 33.33%;
+       margin-left: 35px;
+       margin-bottom: 20px;
+    }
+    .footer-left{
+      flex-direction: column;
+      
+    }
+    .footer-end{
+      display: none;
+    }
+    
+
+
+    
+}
+
+
+@media only screen and (min-width: 576px) and (max-width: 991px) {
+  header{
+  
+    flex-direction: column;
+  }
+  
+    .headerleft {
+    
+    align-items: flex-start;
+    padding: 10px 20px;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .headerAddres {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+   
+  }
+
+  .headerAddres p{
+    font-size: 26px;
+  }
+
+  .headersearch {
+    width: 100%;
+    margin: 10px 0;
+    padding: 0 20px;
+    justify-content: center;
+  }
+
+  .searchbox {
+    width: 100%;
+    max-width: 100%;
+    flex-wrap: wrap;
+  }
+
+   .headerright{
+          position: fixed;
+          bottom: 0;
+          justify-content: center;
+          width: 100%;
+    }
+
+    .imgSection{
+        margin-top: 10px;
+    }
+
+    .image{
+        display: none;
+    }
+
+    .orderItem{
+      flex-basis: 25%;
+    
+    }
+
+     .productitems{
+       flex-basis: 25%;
+       margin-right: 30px;
+       margin-bottom: 20px;
+    }
+    .last-min img{
+      display: block;
+    }
+
+ 
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1280px) {
+  .headerright {
+    background-color: transparent;
+
+  }
+  
+}
+
+
+
+
